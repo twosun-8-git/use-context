@@ -1,6 +1,6 @@
 "use client";
 
-import { useDateContext } from "../_context";
+import { useDateContext } from "../_contexts";
 
 export function Timestamp() {
   const { timestamp } = useDateContext();
